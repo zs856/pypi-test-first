@@ -24,6 +24,9 @@ print(result)  # Output: 6
 
 result = pypi_test_first.divide(6, 3)
 print(result)  # Output: 2.0
+
+result = pypi_test_first.power(2, 3)
+print(result) # Output: 8
 ```
 
 ## Available Functions
@@ -32,3 +35,4 @@ print(result)  # Output: 2.0
 - `subtract(a, b)`: Returns the difference between `a` and `b`.
 - `multiply(a, b)`: Returns the product of `a` and `b`.
 - `divide(a, b)`: Returns the result of dividing `a` by `b`. Raises a `ValueError` if `b` is zero.
+- `power(a, b)`: Returns the result of `a` raised to the power of `b`.
